@@ -4,6 +4,7 @@ import net.celsiusqc.ad_astra_rocketed.common.tags.AdAstraRocketed;
 import com.teamresourceful.resourcefullib.common.item.tabs.ResourcefulCreativeTab;
 import earth.terrarium.adastra.common.registry.ModFluids;
 import earth.terrarium.adastra.common.utils.FluidUtils;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
@@ -20,6 +21,7 @@ public class ModCreativeTab {
             .addContent(ModCreativeTab::getCustomNbtItems)
             .addRegistry(ModItems.ITEMS)
             .build();
+
 
     public static Stream<ItemStack> getCustomNbtItems() {
         List<ItemStack> list = new ArrayList<>();
