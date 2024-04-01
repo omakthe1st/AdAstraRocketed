@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.celsiusqc.ad_astra_rocketed.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [],
+  "client": [
+    "TittleScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

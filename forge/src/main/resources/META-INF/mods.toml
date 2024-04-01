@@ -1,0 +1,56 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+issueTrackerURL = "https://github.com/Frontiers-PackForge/Cosmic-Rocketry/issues"
+license = "All rights reserved"
+
+[[mods]]
+modId = "ad_astra_rocketed"
+version = "${version}"
+displayName = "Cosmic Rocketry"
+#updateJSONURL = "https://api.modrinth.com/updates/3ufwT9JF/forge_updates.json"
+#displayURL = "https://modrinth.com/mod/cosmic-rockets"
+authors = "MrQuentinet"
+description = "A Simple Addon mod to add extra rocket tiers to Ad Astra"
+logoFile = "icon.png"
+
+[[dependencies.ad_astra_rocketed]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.ad_astra_rocketed]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.ad_astra_rocketed]]
+modId = "resourcefullib"
+mandatory = true
+versionRange = "[2.1.23,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.ad_astra_rocketed]]
+modId = "resourcefulconfig"
+mandatory = true
+versionRange = "[2.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.ad_astra_rocketed]]
+modId = "botarium"
+mandatory = true
+versionRange = "[2.3.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.ad_astra_rocketed]]
+modId = "ad_astra"
+mandatory = true
+versionRange = "[1.15.18,)"
+ordering = "NONE"
+side = "BOTH"
