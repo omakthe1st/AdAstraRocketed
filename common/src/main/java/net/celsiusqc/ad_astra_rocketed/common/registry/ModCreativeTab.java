@@ -8,6 +8,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Tier;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,9 +27,18 @@ public class ModCreativeTab {
     public static Stream<ItemStack> getCustomNbtItems() {
         List<ItemStack> list = new ArrayList<>();
 
+
+        // Add items directly and filling them with any fluid.
         list.add(FluidUtils.fluidFilledItem(ModItems.TIER_5_ROCKET, ModFluids.FUEL));
         list.add(FluidUtils.fluidFilledItem(ModItems.TIER_6_ROCKET, ModFluids.FUEL));
         list.add(FluidUtils.fluidFilledItem(ModItems.TIER_7_ROCKET, ModFluids.FUEL));
+
+
+        // Add items directly without filling them with any fluid.
+        list.add(new ItemStack(ModItems.TIER_5_ROCKET.get()));
+        list.add(new ItemStack(ModItems.TIER_6_ROCKET.get()));
+        list.add(new ItemStack(ModItems.TIER_7_ROCKET.get()));
+
 
         return list.stream();
     }
