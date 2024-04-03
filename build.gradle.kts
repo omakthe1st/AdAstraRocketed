@@ -98,8 +98,9 @@ subprojects {
     }
 
     java {
-        withSourcesJar()
+        //withSourcesJar()
     }
+
 
     tasks.jar {
         archiveClassifier.set("dev")
@@ -144,6 +145,7 @@ subprojects {
         sourceSets.main.get().resources.srcDirs("src/main/generated/resources")
     }
 }
+
 
 //resourcefulGradle {
 //    templates {

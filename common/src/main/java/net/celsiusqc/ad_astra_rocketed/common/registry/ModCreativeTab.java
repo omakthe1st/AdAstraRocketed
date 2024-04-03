@@ -35,9 +35,9 @@ public class ModCreativeTab {
 
 
         // Add items directly without filling them with any fluid.
-        list.add(new ItemStack(ModItems.TIER_5_ROCKET.get()));
-        list.add(new ItemStack(ModItems.TIER_6_ROCKET.get()));
-        list.add(new ItemStack(ModItems.TIER_7_ROCKET.get()));
+//        list.add(new ItemStack(ModItems.TIER_5_ROCKET.get()));
+//        list.add(new ItemStack(ModItems.TIER_6_ROCKET.get()));
+//        list.add(new ItemStack(ModItems.TIER_7_ROCKET.get()));
 
 
         return list.stream();
