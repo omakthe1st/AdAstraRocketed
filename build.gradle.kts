@@ -42,6 +42,9 @@ subprojects {
         maven(url = "https://maven.architectury.dev/")
         maven(url = "https://maven.teamresourceful.com/repository/maven-public/")
         maven(url = "https://maven.firstdarkdev.xyz/snapshots")
+        maven(url = "https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/")
+
+
         maven {
             url = uri("https://www.cursemaven.com")
             content {
@@ -94,7 +97,12 @@ subprojects {
             "modCompileOnly"(group = "me.shedaniel", name = "RoughlyEnoughItems-api-$modLoader", version = reiVersion)
             "modCompileOnly"(group = "me.shedaniel", name = "RoughlyEnoughItems-default-plugin-$modLoader", version = reiVersion)
             "modLocalRuntime"(group = "vazkii.patchouli", name = "Patchouli", version = "$minecraftVersion-$patchouliVersion-${modLoader.uppercase()}")
+
         }
+
+
+
+
     }
 
     java {

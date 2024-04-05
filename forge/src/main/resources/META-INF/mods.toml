@@ -6,12 +6,10 @@ license = "All rights reserved"
 [[mods]]
 modId = "ad_astra_rocketed"
 version = "${version}"
-displayName = "Cosmic Rocketry"
-#updateJSONURL = "https://api.modrinth.com/updates/3ufwT9JF/forge_updates.json"
-#displayURL = "https://modrinth.com/mod/cosmic-rockets"
-authors = "MrQuentinet"
+displayName = "Ad Astra: Rocketed"
+authors = "celsiusqc"
 description = "A Simple Addon mod to add extra rocket tiers to Ad Astra"
-logoFile = "icon.png"
+logoFile = ""
 
 [[dependencies.ad_astra_rocketed]]
 modId = "forge"

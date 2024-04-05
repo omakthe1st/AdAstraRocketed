@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "ad_astra_rocketed",
   "version": "${version}",
-  "name": "Ad Astra Rocketd",
+  "name": "Ad Astra: Rocketed",
   "description": "A Simple Addon mod to add extra rocket tiers to Ad Astra",
   "authors": [
     "MrQuentinet, forked by celsiusqc"
