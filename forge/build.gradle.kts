@@ -38,7 +38,7 @@ dependencies {
     modLocalRuntime(group = "mezz.jei", name = "jei-$minecraftVersion-forge", version = jeiVersion) { isTransitive = false }
 
 //    modLocalRuntime(group = "maven.modrinth", name = "jade", version = "13.2.2")
-    "modImplementation"("curse.maven:create-planetary-tweaks-594527:4675046")
+    "modImplementation"("curse.maven:create-planetary-tweaks-594527:5237130")
     "modImplementation"("software.bernie.geckolib:geckolib-forge-1.20:4.2")
 
 //

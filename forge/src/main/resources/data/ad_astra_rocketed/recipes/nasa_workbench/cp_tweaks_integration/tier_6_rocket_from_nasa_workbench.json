@@ -25,27 +25,17 @@
         }
       ],
       "recipe": {
-        "type": "ad_astra:nasa_workbench",
-        "ingredients": [
-          { "item": "cp_tweaks:reinforced_rocket_nose_cone" },
-          { "item": "minecraft:dirt" },
-          { "item": "cataclysm:void_stone" },
-          { "item": "cataclysm:void_stone" },
-          { "item": "cataclysm:void_stone" },
-          { "tag": "forge:plates/ender" },
-          { "tag": "forge:plates/ender" },
-          { "item": "cp_tweaks:reinforced_rocket_fin" },
-          { "item": "ad_astra:calorite_tank" },
-          { "item": "ad_astra:calorite_tank" },
-          { "item": "cp_tweaks:reinforced_rocket_fin" },
-          { "item": "cp_tweaks:reinforced_rocket_fin" },
-          { "item": "cp_tweaks:ftl_glacian_engine" },
-          { "item": "cp_tweaks:reinforced_rocket_fin" }
-        ],
+        "type": "minecraft:smithing_transform",
+        "addition": {
+          "item": "cp_tweaks:weird_satellite"
+        },
+        "base": {
+          "item": "ad_astra_rocketed:tier_5_rocket"
+        },
         "result": {
-          "count": 1,
-          "id": "ad_astra_rocketed:tier_6_rocket"
-        }
+          "item": "ad_astra_rocketed:tier_6_rocket"
+        },
+        "template": []
       }
     }
   ]
