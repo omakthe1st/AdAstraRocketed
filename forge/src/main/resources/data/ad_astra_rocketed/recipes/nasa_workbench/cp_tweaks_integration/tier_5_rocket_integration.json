@@ -1,0 +1,43 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "cp_tweaks"
+        },
+        {
+          "type": "not",
+          "value":{
+            "type": "forge:mod_loaded",
+            "modid": "cataclysm"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "ad_astra:nasa_workbench",
+        "ingredients": [
+          { "item": "ad_astra:ice_shard" },
+          { "item": "ad_astra:calorite_block" },
+          { "item": "ad_astra:calorite_block" },
+          { "item": "ad_astra:calorite_block" },
+          { "item": "ad_astra:calorite_block" },
+          { "item": "ad_astra:calorite_block" },
+          { "item": "ad_astra:calorite_block" },
+          { "item": "cp_tweaks:reinforced_rocket_fin" },
+          { "item": "ad_astra:calorite_tank" },
+          { "item": "ad_astra:calorite_tank" },
+          { "item": "cp_tweaks:reinforced_rocket_fin" },
+          { "item": "cp_tweaks:reinforced_rocket_fin" },
+          { "item": "ad_astra:calorite_engine" },
+          { "item": "cp_tweaks:reinforced_rocket_fin" }
+        ],
+        "result": {
+          "count": 1,
+          "id": "ad_astra_rocketed:tier_5_rocket"
+        }
+      }
+    }
+  ]
+}
