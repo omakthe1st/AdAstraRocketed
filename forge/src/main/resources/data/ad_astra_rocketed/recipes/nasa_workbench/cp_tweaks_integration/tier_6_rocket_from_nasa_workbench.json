@@ -4,11 +4,7 @@
     {
       "conditions": [
         {
-          "type": "forge:mod_loaded",
-          "modid": "cp_tweaks"
-        },
-        {
-          "type": "not",
+          "type": "forge:not",
           "value":{
             "type": "forge:mod_loaded",
             "modid": "cataclysm"
@@ -18,13 +14,13 @@
       "recipe": {
         "type": "ad_astra:nasa_workbench",
         "ingredients": [
-          { "item": "ad_astra:ice_shard" },
-          { "item": "ad_astra:permafrost_bricks" },
-          { "item": "ad_astra:permafrost_bricks" },
-          { "item": "ad_astra:permafrost_bricks" },
-          { "item": "ad_astra:permafrost_bricks" },
-          { "item": "ad_astra:permafrost_bricks" },
-          { "item": "ad_astra:permafrost_bricks" },
+          { "item": "minecraft:echo_shard" },
+          { "item": "ad_astra:calorite_block" },
+          { "item": "ad_astra:calorite_block" },
+          { "item": "ad_astra:calorite_block" },
+          { "item": "ad_astra:calorite_block" },
+          { "item": "ad_astra:calorite_block" },
+          { "item": "ad_astra:calorite_block" },
           { "item": "cp_tweaks:reinforced_rocket_fin" },
           { "item": "ad_astra:calorite_tank" },
           { "item": "ad_astra:calorite_tank" },
@@ -35,7 +31,7 @@
         ],
         "result": {
           "count": 1,
-          "id": "ad_astra_rocketed:tier_7_rocket"
+          "id": "ad_astra_rocketed:tier_6_rocket"
         }
       }
     }
